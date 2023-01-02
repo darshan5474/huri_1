@@ -1,0 +1,206 @@
+@media only screen and (max-width: 1064px){
+    .nav-button-wrap {
+        float: right;
+        height: 70px;
+        width: 70px;
+        cursor: pointer;
+        position: relative;
+        display: block ;
+        border-left: 1px solid #eee;
+        left: 24px;
+    }
+    .images-collage-item, .promot-wrap, .height-emulator, .hero-menu_header:before, .hero-menu_header li:before, .element {
+        display: none;
+    }
+    .nav-button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 22px;
+        height: 20px;
+        margin-left: -11px;
+        margin-top: -6px;
+    }
+    .nav-button span {
+        float: left;
+        width: 100%;
+        height: 2px;
+        background: #eee;
+        margin-bottom: 4px;
+        border-radius: 4px;
+        -webkit-transition: all 200ms linear;
+        transition: all 200ms linear;
+    }
+    .main-menu{
+        position: absolute;
+        top: 70px;
+        width: 300px;
+        z-index: 50;
+        padding: 15px 10px;
+        visibility: hidden;
+        opacity: 0;
+        right: -20px;
+        background-color: #292929;
+        transition: all 0.4s ease-in-out;
+    }
+    .vismod{
+        opacity: 1;
+        right: 0;
+        visibility: visible;
+    }
+    .main-menu .navbar-1 ul {
+        display: none;
+    }
+    .main-menu .menusb ul{
+        display: block;
+        float: left;
+        position: relative;
+    }
+    .menusb {
+        display: block;
+        float: left;
+        position: relative;
+        width: 100%;
+        height: 259px;
+        overflow: hidden;
+    }
+    .menusb li {
+        margin: 0;
+        float: left;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        padding: 0 20px;
+    }
+    .menusb a{
+        float: left;
+        width: 100%;
+        padding: 8px 5px;
+        position: relative;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 11px;
+        color: #fff;
+        line-height: 20px;
+        text-align: left;
+    }
+    .menusb li i{
+        position: absolute;
+        right: 18px;
+        top: 12px;
+    }
+    .menusb a.back::before{
+        color: #C19D60;
+        content: '\f177';
+        font-family: font awesome\ 6 Free;
+        font-size: 14px;
+    }
+    .menusb > #menu-panel-2{
+        height: 253px;
+    }
+    .menusb > #menu-panel-3{
+        height: 145px;
+    }
+    .menusb > #menu-panel-4{
+        height: 289px;
+    }
+    .image-collge-wrap{
+        margin-top: 20px !important;
+    }
+    .image-collge-item, .height-emulate{
+        display: none !important;
+    }
+    .content-inner, .team-box{
+        margin-bottom: 20px !important;
+    }
+    .col-wrap-bg, .col-wrap-bg-2, .quote-box-1{
+        width: 100%;
+        position: relative;
+        float: left;
+        padding: 90px 0;
+    }
+    .col-wrap-sect, .col-wrap-sect-2{
+        width: 100%;
+    }
+    .hero-menu_header{
+        padding: 0 10px 20px;
+        margin-top: 0;
+    }
+    .hero-menu_header li{
+        float: none;
+        width: auto;
+        display: inline-block;
+        margin: 0 20px;
+    }
+    .fixed-footer, .widget-content, .widget-title{
+        position: relative !important;
+        float: left;
+        width: 100%;
+    }
+    .widget-content{
+        margin-bottom: 20px;
+    }
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2){
+    .bg {
+        background-attachment: scroll !important;
+        -webkit-background-size: cover;
+        background-position: center;
+    }
+}
+@media (min-width:1064px)
+{
+    .col-md-6{
+        width: 50% !important;
+    }
+    .col-md-4{
+        width: 33.33333% !important;
+    }
+    .col-md-3{
+        width: 25%;
+    }
+    .col-md-9{
+        width: 75%;
+    }
+}
+
+
+@media only screen and (max-width: 1570px){
+    .social-wrap, .dec_top, .dec_bottom, .dec_top_right, .dec_bottom_right {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+    .resery i{
+        display: block;
+        font-weight: 400;
+        font-size: 18px;
+        top: 26px;
+    }
+    .resery, .show-share-btn, .show-cart, .nav-button-wrap{
+        padding: 0;
+        width: 40px;
+        border-left: none;
+    }
+    .resery span{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 560px)
+{
+    .header-top{
+        display: none !important;
+    }
+    .header-inner{
+        top: 0 !important;
+    }
+    .header-inner .container{
+        width: 100%;
+    }
+}
